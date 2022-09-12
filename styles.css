@@ -1,0 +1,40 @@
+/* universal selector - can setup std margin, padding, font, color */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    color: red;
+} */
+
+/* tag-name selector - all from same elements get same style */
+
+/* p {
+    color: red;
+} */
+/* 
+h3 {font-size: 14px;
+} */
+
+/* class-name selector - not all tags to inherit the same styles, only certain collection has set of styles */
+
+  /* .heading { */
+    /* font-style: italic; */
+    /* color: red; */
+  /* } */
+
+/* id selector  - apply change to a single element*/
+
+/* #main-language {
+    font-weight: bold;
+} */
+
+.name-tag{
+    display:block;
+    border:1px;
+    border-radius: 10px;
+    width: 300px;
+    margin:auto;
+    padding: 30px;
+    border-style:solid;
+    text-align: center;
+}
