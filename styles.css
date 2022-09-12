@@ -28,13 +28,23 @@ h3 {font-size: 14px;
     font-weight: bold;
 } */
 
-.name-tag{
+* {
+  font-weight:bold;
+  color: darkblue;
+}
+
+div{
     display:block;
-    border:1px;
-    border-radius: 10px;
-    width: 300px;
     margin:auto;
-    padding: 30px;
-    border-style:solid;
+    padding: 4vh;
+    width: fit-content;
+    border:1px solid;
+    border-radius: 10px;
     text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+img{
+  border-radius: 10px;
 }
